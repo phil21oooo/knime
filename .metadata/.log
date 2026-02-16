@@ -1,0 +1,485 @@
+!SESSION 2025-04-29 14:54:26.005 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:54:39.881
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:54:39.882
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.knime.product 1 0 2025-04-29 14:55:36.699
+!MESSAGE ShellExec command: ./create_env.sh
+
+!ENTRY org.knime.product 1 0 2025-04-29 14:55:36.700
+!MESSAGE ShellExec directory : /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.python.llm.channel.bin.macosx.aarch64_5.4.3.v202503041757/bin
+
+!ENTRY org.knime.product 1 0 2025-04-29 14:56:06.461
+!MESSAGE Standard output: Found KNIME_PYTHON_PACKAGE_REPO_URL=/Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.python.llm.channel.bin.macosx.aarch64_5.4.3.v202503041757/bin/../pkgs, using packages from there for installation
+Current directory: /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.python.llm.channel.bin.macosx.aarch64_5.4.3.v202503041757/bin
+Directory name: org.knime.python.llm.channel.bin.macosx.aarch64_5.4.3.v202503041757
+Extension name: org_knime_python_llm
+The environment variable 'KNIME_PYTHON_BUNDLING_PATH' is not set
+The bundle path is set to: /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.python.llm.channel.bin.macosx.aarch64_5.4.3.v202503041757/bin/../../../bundling/envs/org_knime_python_llm
+
+!SESSION 2025-04-29 14:56:24.041 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring -showlocation -data file:/Users/philippgilch/knime-workspace/
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:56:30.118
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:56:30.120
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SESSION 2025-04-29 14:56:50.675 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring -showlocation -data file:/Users/philippgilch/knime-workspace/
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:56:56.425
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:56:56.425
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-04-29 14:57:48.806
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2025-04-29 14:57:48.806
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2025-04-29 14:57:48.806
+!MESSAGE "KNIME AI Extension" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2025-04-29 14:57:48.806
+!MESSAGE "KNIME AI Assistant (Labs)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2025-04-29 14:57:48.807
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2025-04-29 14:57:48.807
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2025-04-29 14:57:48.807
+!MESSAGE "KNIME AI Extension" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2025-04-29 14:57:48.807
+!MESSAGE "KNIME AI Assistant (Labs)" will be ignored because it is already installed.
+!SESSION 2025-04-29 14:59:01.637 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:59:08.612
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 14:59:08.612
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.knime.product 1 0 2025-04-29 14:59:54.857
+!MESSAGE ShellExec command: ./create_env.sh
+
+!ENTRY org.knime.product 1 0 2025-04-29 14:59:54.857
+!MESSAGE ShellExec directory : /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.aarch64_5.4.2.v202502111650/bin
+
+!ENTRY org.knime.product 1 0 2025-04-29 15:00:22.716
+!MESSAGE Standard output: Found KNIME_PYTHON_PACKAGE_REPO_URL=/Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.aarch64_5.4.2.v202502111650/bin/../pkgs, using packages from there for installation
+Current directory: /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.aarch64_5.4.2.v202502111650/bin
+Directory name: org.knime.pythonscripting.channel.v1.bin.macosx.aarch64_5.4.2.v202502111650
+Extension name: org_knime_pythonscripting
+The environment variable 'KNIME_PYTHON_BUNDLING_PATH' is not set
+The bundle path is set to: /Applications/KNIME 5.4.3.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.aarch64_5.4.2.v202502111650/bin/../../../bundling/envs/org_knime_pythonscripting
+
+!SESSION 2025-04-29 15:00:26.171 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring -data file:/Users/philippgilch/knime-workspace/
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 15:00:32.207
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 15:00:32.207
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SESSION 2025-04-29 15:03:11.395 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 15:03:17.826
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 15:03:17.826
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SESSION 2025-04-29 16:11:14.441 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/philippgilch/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/philippgilch/.eclipse_keyring
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 2 0 2025-04-29 16:11:14.922
+!MESSAGE An error occurred while loading the manifest /Applications/KNIME 5.4.3.app/Contents/Eclipse/dropins/org.knime.python.llm_5.4.0.v202404051503.jar.
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.equinox.p2.publisher.eclipse.BundlesAction.basicLoadManifest(BundlesAction.java:845)
+	at org.eclipse.equinox.p2.publisher.eclipse.BundlesAction.loadManifest(BundlesAction.java:814)
+	at org.eclipse.equinox.p2.publisher.eclipse.BundlesAction.createBundleDescription(BundlesAction.java:791)
+	at org.eclipse.equinox.p2.publisher.eclipse.BundlesAction.createBundleDescriptionIgnoringExceptions(BundlesAction.java:775)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.processBundle(RepositoryListener.java:126)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.process(RepositoryListener.java:121)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.added(RepositoryListener.java:99)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:199)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:162)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:112)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:508)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:165)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2006)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 16:11:14.959
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at jar:file:/Applications/KNIME%205.4.3.app/Contents/Eclipse/dropins/org.knime.python.llm_5.4.0.v202404051503.jar!/content.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:250)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:1)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadRepository(Activator.java:137)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:96)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:236)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:128)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:101)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:199)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:162)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:112)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:508)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:165)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2006)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+Caused by: java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.jar.JarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:120)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-04-29 16:11:14.960
+!MESSAGE Unable to read repository at jar:file:/Applications/KNIME%205.4.3.app/Contents/Eclipse/dropins/org.knime.python.llm_5.4.0.v202404051503.jar!/content.xml.
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.jar.JarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:120)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 16:11:14.962
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at jar:file:/Applications/KNIME%205.4.3.app/Contents/Eclipse/dropins/org.knime.python.llm_5.4.0.v202404051503.jar!/artifacts.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:250)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:1)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadRepository(Activator.java:137)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:128)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:263)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:129)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:101)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:199)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:162)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:112)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:508)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:165)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2006)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+Caused by: java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.jar.JarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:120)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-04-29 16:11:14.962
+!MESSAGE Unable to read repository at jar:file:/Applications/KNIME%205.4.3.app/Contents/Eclipse/dropins/org.knime.python.llm_5.4.0.v202404051503.jar!/artifacts.xml.
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.jar.JarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:120)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 16:11:24.599
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-29 16:11:24.599
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)

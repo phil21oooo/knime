@@ -1,0 +1,26 @@
+{
+    "credentials-692": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": "gilch.phi@gmail.com"
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    },
+    "credentials-1096": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}
